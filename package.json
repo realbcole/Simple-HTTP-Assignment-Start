@@ -1,0 +1,26 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "description": "simple http assignment",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realbcole/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Brandon Cole",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/realbcole/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/realbcole/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.29.1"
+  }
+}
