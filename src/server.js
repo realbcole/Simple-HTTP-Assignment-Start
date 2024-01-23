@@ -31,7 +31,7 @@ const onRequest = (req, res) => {
     case '/dankmemes':
       imageHandler.getSpongegar(req, res);
       break;
-    default:
+    default: // any other url
       htmlHandler.getIndex(req, res);
       break;
   }
